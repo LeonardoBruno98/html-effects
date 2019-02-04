@@ -1,0 +1,114 @@
+.ex-1-square{
+   transition: 3s;
+}
+
+.ex-1-square:hover{
+  background-color: red;
+}
+
+.ex-2-square{
+  transition: 3s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+.ex-3-square{
+  transition: 2s;
+}
+
+.ex-3-square:hover{
+  border-radius: 100%;
+}
+
+.ex-4-square{
+  transition: 2s;
+}
+
+.ex-4-square:hover{
+  opacity:0;
+}
+
+.ex-5-square{
+  transition: 2s;
+}
+
+.ex-5-square:hover{
+  width:100px;
+  height: 100px;
+}
+
+.ex-5-square:active{
+  width:10px;
+  height: 10px;
+}
+
+.ex-6-img:hover {
+    filter: grayscale;
+}
+
+.ex-7-img {
+    transition: 2s;
+}
+
+.ex-7-img:hover {
+  filter: grayscale(.5) sepia(.6);
+}
+
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover{
+  filter: grayscale(.5) sepia(.6);
+  border-radius: 100%;
+}
+
+.ex-9-img {
+    transition: 2s;
+}
+
+.ex-9-img:hover{
+  filter: grayscale(.5) sepia(.6);
+  border-radius: 30px;
+  transform: scale(1.5);
+}
+
+.ex-10-icon{
+  transition: 4s;
+}
+
+.ex-10-icon{
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0%{
+     transform: rotate(0);
+    }
+  100%{
+     transform: rotate(1turn);
+    }
+}
+
+.ex-11-icon:hover {
+    animation: spin75 2s linear;
+}
+@keyframes spin75 {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(175deg);
+    }
+
+    80% {
+        transform: rotate(280deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
